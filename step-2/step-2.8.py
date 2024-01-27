@@ -9,7 +9,7 @@ class Bag:
         self.add(x)
         self.add(x)
 
-    def remove_add(self,x: str):    
+    def remove_add(self,x: str):
         if x in self.data:
             self.data.remove(x)
         else:
