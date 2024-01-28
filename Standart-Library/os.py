@@ -2,7 +2,8 @@ import os
 
 print(os.getcwd()) # C:\Users\USER\Desktop\push\class-python\Standart-Library
 
-print(os.system('mkdir today'))# 1
+print(os.system('mkdir yesterday'))
+# 1
 
 for i in dir(os):
     print(i,end='\n')
